@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.Zuckerberg{
+    width: 400px;
+}
+.Zuckerberg__top{
+    padding: 20px 29px 20px 40px;
+    background: #6A96D8;
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Zuckerberg__top > strong {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    font-variant: small-caps;
+    color: #FFFFFF;    
+}
+.Zuckerberg__top > strong::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: -15px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.Zuckerberg__center{
+    padding: 24px 24px 20px 24px;
+    background-color: #fff;
+}
+.Zuckerberg__center > p {
+    position: relative;
+    text-align: center;
+}
+.Zuckerberg__center > p::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 145px;
+    height: 2px;
+    background-color: #dddddd;
+}
+.Zuckerberg__center > p::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 145px;
+    height: 2px;
+    background-color: #dddddd;
+}
+.Zuckerberg__list > li {
+width: 275px;
+background-color: #E6EDF6;;
+}
+ li + li{
+    margin-top: 36px;
+}
+li:nth-child(2n) {
+margin-left: auto;
+}
+.form{
+width: 100%;
+position: relative;
+}
+.input{
+    width: 100%;
+}
+.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
